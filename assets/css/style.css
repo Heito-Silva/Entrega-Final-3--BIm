@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #181818;
+    color: #fff;
+}
+
+/******** INÍCIO LOGIN ********/
+.login_page {
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/img/bg_login.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste_login h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.teste_login h2::after {
+
+    content: '';
+    display: block;
+    width: 100px;
+    border-top: 1px solid #70eff8;
+    margin: 15px auto;
+}
+
+.login_area {
+    width: 300px;
+    height: 320px;
+    background-color: #181818;
+    text-align: center;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 8px #70eff8;
+    padding-top: 40px;
+    transition: 1s;
+}
+
+.login_area:hover {
+    border: 1px solid #70eff8;
+    box-shadow: 0px 5px 8px #70eff8;
+    transition: 1s;
+}
+
+.login_area input {
+    width: 90%;
+    border: 2px solid #70eff8;
+    border-radius: 5px;
+    padding: 5px; 
+}
+
+.cadastre {
+    cursor: pointer;
+    color: #70eff8;
+}
+
+.login_page .modal-header button span {
+    color: #fff;
+}
+
+.login_page .modal-header,
+.login_page .modal-body {
+    border: 1px solid #70eff8;
+    background-color: #181818;
+}
+
+.login_page .modal-header {
+    border-bottom: none;
+}
+
+.login_page .modal-body input {
+    width: 60%;
+    border: 2px solid #70eff8;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.login_page .modal-body button,
+.login_area button {
+    width: 40%;
+    background: transparent;
+    border: 2px solid #70eff8;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.login_page .modal-body button:hover,
+.login_area button:hover {
+    background-color: #70eff8;
+    color: #000000;
+}
+/******** FIM LOGIN ********/
+
+/******** INÍCIO MENU ********/
+#header2 {
+    background: transparent;
+    border-bottom: 1px solid #70eff8;
+    color: #fff;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+/* borda do botão menu mobile */
+.navbar-light .navbar-toggler {
+    border-color: #70eff8;
+}
+
+/* cor dos links */
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #70eff8;
+}
+
+/* link para sair(logout) */
+.logout {
+    color: #70eff8!important;
+    font-weight: 700;
+}
+/******** FIM MENU ********/
+
+/*TÌTULO DAS PAGES*/
+.page-title {
+    margin: 30px 0;
+}
+
+.page-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    border-top: 1px solid #70eff8;
+    margin: 15px auto;
+}
+
+table {
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+}
+
+iframe {
+    margin-bottom: 30px;
+}
+
+/* #content_section1 {
+    margin: 40px 0 40px 0;
+} */
+
+/* #content_section1 iframe {
+    margin-bottom: 40px;
+} */
+
+/******** INÍCIO PERFIL ********/
+.info_perfil {
+    margin-bottom: 100px;
+}
+/******** FIM PERFIL ********/
+
+/******** INÍCIO RODAPÉ ********/
+#footer {
+    background-color: #70eff8;
+    border-top: 2px solid #70eff8;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+}
+
+#footer:hover {
+    background: transparent;
+    color: #fff;
+}
+/******** FIM RODAPÉ ********/
